@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yizha-web/static/css/main.abd64e84.css",
+    "main.js": "/yizha-web/static/js/main.0d0f236c.js",
+    "index.html": "/yizha-web/index.html",
+    "main.abd64e84.css.map": "/yizha-web/static/css/main.abd64e84.css.map",
+    "main.0d0f236c.js.map": "/yizha-web/static/js/main.0d0f236c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.0d0f236c.js"
+  ]
+}
