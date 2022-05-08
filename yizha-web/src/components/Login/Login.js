@@ -15,14 +15,14 @@ export default function Login({ setToken }) {
   const [username, setUserName] = useState();
   const [password, setPassword] = useState();
 
-  const handleSubmit = async e => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const token = await loginUser({
       username,
-      password
+      password,
     });
     setToken(token);
-  }
+  };
   return (
     <div className="login-wrapper">
       <h1>Please Log In</h1>
