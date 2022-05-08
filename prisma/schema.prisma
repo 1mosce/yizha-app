@@ -28,7 +28,7 @@ model Restaurant {
   bio String
   url_photo String
   menu String
-  //content   String?
+  content   String?
   //published Boolean @default(false)
  // author    User?   @relation(fields: [authorId], references: [id])
   //authorId  Int?
