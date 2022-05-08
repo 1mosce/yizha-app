@@ -40,6 +40,8 @@
     ]
   },
   "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
     "gh-pages": "^3.2.3"
   }
 }
