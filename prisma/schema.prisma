@@ -4,43 +4,8 @@
 generator client {
   provider = "prisma-client-js"
 }
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
-
-model User {
-  id    Int     @default(autoincrement()) @id
-  admin Boolean @default(false)
-  full_name String?
-  phone_number String[] @unique //+38(050)-887-94-05
-  saved_adress String
-  history Int
-  bin String
-  bank_card Int
-  email String @unique
-}
-
-model Restaurant {
-  id        Int     @default(autoincrement()) @id
-  name     String
-  saved_adress String
-  bio String
-  url_photo String
-  menu String
-  content   String?
-  //published Boolean @default(false)
- // author    User?   @relation(fields: [authorId], references: [id])
-  //authorId  Int?
-}
-
-//model Menu {
-  //id        Int     @default(autoincrement()) @id
-  //id_restaurant Int 
-  //name     String
-  //price numeric
-  //bio String
-  //url_photo String
-  //menu String
-//}
-
