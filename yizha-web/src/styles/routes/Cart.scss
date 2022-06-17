@@ -1,0 +1,79 @@
+@import "../globals.scss";
+
+.wrapper {
+  width: 100%;
+  height: auto;
+
+  .title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 56px;
+    font-weight: 200;
+  }
+
+  .cart-container {
+    margin: auto;
+    box-shadow: -1px 1px 18px 0px rgba(0, 0, 0, 0.75);
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+
+    &-element {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      padding: 16px;
+
+      &-logo {
+        width: 20%;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      &-info {
+        width: 50%;
+        text-align: center;
+
+        h3 {
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+
+      &-price {
+        width: auto;
+
+        h3 {
+          font-weight: 400;
+          font-size: 32px;
+        }
+      }
+    }
+
+    &-total {
+      padding: 20px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      
+      &-pay {
+        background: $primary-color;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        height: auto;
+        padding: 8px;
+        cursor: pointer;
+      }
+    }
+  }
+}

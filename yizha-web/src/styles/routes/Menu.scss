@@ -1,0 +1,84 @@
+@import "../globals.scss";
+
+.wrapper {
+  width: 100%;
+
+  .main-title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 48px;
+    font-weight: 300;
+  }
+
+  .restaraunts-wrapper {
+    width: 75%;
+    margin: auto;
+    height: auto;
+    padding: 40px;
+
+    .restaraunt-position {
+      height: 100%;
+      width: 100%;
+      border: 1px solid rgb(179, 179, 179);
+      box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.51);
+      border-radius: 24px;
+      margin-top: 20px;
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &-logo {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        img {
+          width: fit-content;
+          height: 80px;
+        }
+      }
+
+      &-name {
+        width: 25%;
+
+        h3 {
+          font-weight: 600;
+          font-size: 24px;
+        }
+
+        p {
+          font-weight: 300;
+        }
+      }
+
+      &-rating {
+        width: 25%;
+      }
+
+      &-menu {
+        width: 25%;
+
+        button {
+          width: 50%;
+          cursor: pointer;
+          border: 1px solid #ededed;
+          background: $primary-color;
+          color: #fff;
+          filter: drop-shadow(0px 2px 8px rgba(16, 16, 16, 0.24));
+          border-radius: 10px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 0.05em;
+          margin-right: 20px;
+          padding: 12px;
+
+          .link{
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
