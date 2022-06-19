@@ -1,0 +1,47 @@
+@import "../globals.scss";
+
+.wrapper{
+    width: 100%;
+    height: auto;
+
+    .title{
+        font-weight: 200;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .register{
+        width: 25%;
+        border: 2px solid $primary-color-white;
+        border-radius: 24px;
+        margin: auto;
+        height: 500px;
+
+        &-field{
+            display: flex;
+            flex-direction: column;
+            margin: 24px;
+            
+
+            &-span{
+                padding: 12px;
+                font-weight: 300;
+                letter-spacing: 0,5px;
+                font-size: 24px;
+            }
+
+            &-input{
+                padding: 12px;
+                border-radius: 16px;
+            }
+        }
+
+        &-button{
+            width: 100%;
+
+            button{
+                margin: auto;
+            }
+        }
+    }
+}
