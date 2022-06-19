@@ -1,15 +1,9 @@
 import "./styles/App.scss";
 import { Link, Outlet } from "react-router-dom";
-import Login from "./components/Login/Login";
-import useToken from "./components/App/useToken";
 import Logo from "./components/Logo/logo";
 
 export default function App() {
-  const { token, setToken } = useToken();
-
-  if (!token) {
-    return <Login setToken={setToken} />;
-  }
+ 
 
   return (
     <div className="container">
@@ -26,7 +20,9 @@ export default function App() {
         </div>
         <div className="navBar_buttons">
           <button className="navBar_buttons-register">
+            <Link to="/register">
             Register
+            </Link>
           </button>
           <button className="navBar_buttons-yizha">
             Yizha App

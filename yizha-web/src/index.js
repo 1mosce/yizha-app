@@ -8,6 +8,8 @@ import { Provider } from "react-redux";
 import store from "./store/store";
 import Home from "./routes/Home";
 import Cart from "./routes/Cart";
+import Register from "./routes/Register";
+import Login from "./routes/Login";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -16,11 +18,13 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route path="Home" element={<Home/>}/>
+          <Route path="Home" element={<Home />} />
           <Route path="Menu" element={<Menu />} />
           {/* <Route path="my-account" element={<MyAccount />} /> */}
           <Route path="restaraunt/:id" element={<Restaraunt />} />
-          <Route path="cart" element={<Cart/>}/>
+          <Route path="cart" element={<Cart />} />
+          <Route path="register" element={<Register />} />
+          <Route path="login" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>

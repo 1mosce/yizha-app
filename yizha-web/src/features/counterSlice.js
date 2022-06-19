@@ -6,6 +6,7 @@ export const counterSlice = createSlice({
     id: 1,
     cart: [],
     total: 0,
+    user: {},
   },
   reducers: {
     setId: (state, action) => {
