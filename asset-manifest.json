@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/yizha-web/static/css/main.abd64e84.css",
-    "main.js": "/yizha-web/static/js/main.0d0f236c.js",
+    "main.css": "/yizha-web/static/css/main.b219f3a5.css",
+    "main.js": "/yizha-web/static/js/main.113465a2.js",
     "index.html": "/yizha-web/index.html",
-    "main.abd64e84.css.map": "/yizha-web/static/css/main.abd64e84.css.map",
-    "main.0d0f236c.js.map": "/yizha-web/static/js/main.0d0f236c.js.map"
+    "main.b219f3a5.css.map": "/yizha-web/static/css/main.b219f3a5.css.map",
+    "main.113465a2.js.map": "/yizha-web/static/js/main.113465a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd64e84.css",
-    "static/js/main.0d0f236c.js"
+    "static/css/main.b219f3a5.css",
+    "static/js/main.113465a2.js"
   ]
 }
